@@ -1,0 +1,61 @@
+/* Vars:
+  ========================================================================== */
+
+// Font
+$mainFont                : 'Roboto-Regular', Helvetica,sans-serif;
+$firaSansBold            : 'Firasans-Bold', Helvetica,sans-serif ;
+$firaSansItalic          : 'Firasans-Italic', Helvetica,sans-serif;
+
+
+// Size
+$mainFontColor           : #101010;
+$mainFontSize            : 18px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.4;
+
+$lgDesktopWidth          : 1600px;
+$mdDesktopWidth          : 1440px;
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1080px;
+$smDesktopWidth          : 991px;
+$tableWidth              : 767px;
+$smTableWidth            : 680px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+/*
+  All colors taken from:
+  https://github.com/vedees/uimini
+*/
+
+// Main color
+$default-color           : #ffffff;
+$primary-color           : #fb3;
+$ocean-color             :#002F55;
+$lightPrimary-color      : #d63f57;
+$warning-color           : #fed330;
+$light-color             : #999999;
+$purple-color            : #8854d0;
+$main-color              : #ff3359;
+$main-color-hover        : #fcdfe4;
+$link-color              : #348bf8;
+$body-color              : #050404;
+$color-info              : #33b5e5;
+$dark-color              : #0a0129;
+$danger-color            : #CE2742;
+$danger-hover-color      : #E4324F;
+$danger-active-color     : #CE1F3B;
+$success-color           : #6ABF5F;
+$success-hover-color     : #77D86A;
+$success-active-color    : #4DA741;
+// Neutral Color
+$neutral-primary         : #191919;
+$neutral-regular         : #6c757d;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #D3E3FE;

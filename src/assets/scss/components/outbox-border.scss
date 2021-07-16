@@ -1,0 +1,55 @@
+.outbox-border{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &::before{
+      content: "";
+      height: 1px;
+      width: calc(100% - 100px);
+      background-color: $border-light ;
+      position: absolute;
+      left: 0;
+      margin: 0 50px;
+      @media screen and (max-width: $lgDesktopWidth){
+      }
+      @media screen and (max-width: $desktopWidth) {
+        width: calc(100% - 60px);
+        margin: 0 30px;
+      }
+      @media screen and (max-width: $smDesktopWidth) {
+      }
+      @media screen and (max-width: $tableWidth) {
+      }
+  }
+  @media screen and (max-width: $tableWidth) {
+    
+  }
+  // .outbox-border__item
+  &__item{
+    background-color: $default-color;
+    z-index: 2;
+    position: relative;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    // .outbox-border__item--bg-info
+    &--bg-info{
+      background-color: $border-lightex ;
+    }
+    @media screen and (max-width: $lgDesktopWidth){
+    }
+    @media screen and (max-width: $desktopWidth) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media screen and (max-width: $smDesktopWidth) {
+    }
+    @media screen and (max-width: $tableWidth) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

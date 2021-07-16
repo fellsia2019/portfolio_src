@@ -1,0 +1,14 @@
+.logo{
+  color:$lightPrimary-color ;
+  animation: colorHueRotate 10s linear infinite;
+  font-size: 22px;
+  font-weight: 700;
+  // .logo-footer
+  &-footer{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 8px;
+  }
+}

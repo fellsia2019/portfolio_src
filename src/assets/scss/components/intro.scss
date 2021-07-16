@@ -1,0 +1,16 @@
+// .intro
+.intro{
+  position: relative;
+  // .intro-info
+  &-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    @media(max-width: $smTableWidth) {
+      width: 100%;
+    }
+  }
+  
+}

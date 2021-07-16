@@ -1,0 +1,41 @@
+.filter{
+  @include flexRow;
+  user-select: none;
+  * {user-select: none;}
+  // .filter__item
+  &__item{
+    @include flexCol-50;
+    // .filter__item-select
+    &-select{
+      border: 1px solid #d5d5d5;
+      border-radius: 4px;
+      width: 100%;
+      padding: 5px 14px;
+    }
+  }
+}
+.table-filter{
+  width: 100%;
+  @media(max-width: $tableWidth) {
+    overflow-x: auto;
+    overflow-y: hidden;
+    @include scrollBarOff;
+  }
+  & table{
+    width: 100%;
+    table-layout: auto;
+    border-spacing: 0 15px;
+    @media(max-width: $tableWidth) {
+     td{
+       min-width: 140px;
+       padding-right: 20px;
+       white-space: nowrap;
+     }
+    }
+  }
+  & tbody{
+    td{
+      border-bottom: 1px solid #d7d7d7;
+    }
+  }
+}

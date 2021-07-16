@@ -1,0 +1,31 @@
+.paging{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  * {user-select: none;}
+  // .paging__arrow
+  &__arrow{
+    border: 1px solid $border-base ;
+    border-radius: 4px;
+    padding: 3px 6px;
+    cursor: pointer;
+  }
+  // .paging__item
+  &__item{
+    border: 1px solid $border-base ;
+    border-radius:4px;
+    padding: 3px 6px;
+    margin:0 5px;
+    cursor: pointer;
+    @media(max-width: $tableWidth) {
+      margin: 0 2px;
+    }
+    // .padding__item--current
+    &--current{
+      background: $purple-color;
+      color:$default-color;
+      cursor: unset;
+    }
+  }
+}
